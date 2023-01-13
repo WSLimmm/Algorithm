@@ -15,7 +15,7 @@ int main()
 			arr[i] = 0;
 		else if (i == 1)
 			arr[i] = 1;
-		else if (i >= 2)
+		else
 			arr[i] = arr[i - 1] + arr[i - 2];
 	}
 
